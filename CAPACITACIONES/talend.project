@@ -5,4 +5,7 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_IkWg8YcbEe-GVaQ8NkLW7w" login="jm.rosero.g@binforma" firstName="Johanna" lastName="Rosero" type="DQ"/>
   <TalendProperties:User xmi:id="_J28KMIcbEe-GVaQ8NkLW7w" login="bi.analyst_7@binforma" firstName="David" lastName="Beltrán" type="DQ"/>
+  <TalendProperties:User xmi:id="_zChzoIpOEe-lBaoEzQFxaw" login="edison.quispillo@binforma" firstName="Edison" lastName="Quispillo" type="DQ"/>
+  <TalendProperties:User xmi:id="_zChzoYpOEe-lBaoEzQFxaw" login="seurquizo@binforma" firstName="Santiago" lastName="Urquizo" type="DQ"/>
+  <TalendProperties:User xmi:id="_zChzoopOEe-lBaoEzQFxaw" login="mebenitez@binforma" firstName="Michelle" lastName="Benitez" type="DQ"/>
 </xmi:XMI>
