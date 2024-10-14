@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_VeUG4IckEe-GVaQ8NkLW7w" name="CNX_DB2_B105FAB2_SMXSIC" id="_M9DF4IcjEe-GVaQ8NkLW7w" label="CNX_DB2_B105FAB2_SMXSIC" dataPackage="_1Esy4IcxEe-GVaQ8NkLW7w" DatabaseType="AS400" DriverClass="com.ibm.as400.access.AS400JDBCDriver" URL="jdbc:as400://B105FAB2/SMXSIC;prompt=false" dbVersionString="AS400_V7R1_V7R3" Port="" Username="smxbi" Password="enc:system.encryption.key.v1:PSyrxjSFFVVqhA9d5nnbYuVGnU2E+rCSoIqnOYX4kt3YAtbH" ServerName="B105FAB2" DatasourceName="" FileFieldName="" SID="SMXSIC" SqlSynthax="" StringQuote="" NullChar="" DbmsId="as400_id" ProductId="AS400" AdditionalParams="prompt=false" StandardSQL="true" SQLMode="false" UiSchema="SMXSIC" supportNLS="false">
+    <taggedValue xmi:id="_VeUG4YckEe-GVaQ8NkLW7w" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_Ve0dMIckEe-GVaQ8NkLW7w" tag="package filter" value=""/>
+    <taggedValue xmi:id="_Ve58wIckEe-GVaQ8NkLW7w" tag="Status" value=""/>
+    <taggedValue xmi:id="_Ve58wYckEe-GVaQ8NkLW7w" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Ve58wockEe-GVaQ8NkLW7w" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Ve58w4ckEe-GVaQ8NkLW7w" tag="Description" value=""/>
+    <taggedValue xmi:id="_Ve58xIckEe-GVaQ8NkLW7w" tag="Author" value=""/>
+    <taggedValue xmi:id="_Ve58xYckEe-GVaQ8NkLW7w" tag="otherParameter"/>
+    <taggedValue xmi:id="_1Bz28IcxEe-GVaQ8NkLW7w" tag="DB ProductName" value="DB2 UDB for AS/400"/>
+    <taggedValue xmi:id="_1Bz28YcxEe-GVaQ8NkLW7w" tag="DB ProductVersion" value="07.04.0000 V7R4m0"/>
+    <taggedValue xmi:id="_1Bz28ocxEe-GVaQ8NkLW7w" tag="DB IdentifierQuoteString" value=""/>
+    <parameters xmi:id="_VeUG4ockEe-GVaQ8NkLW7w" key="CONN_PARA_KEY_USERNAME" value="smxbi"/>
+    <parameters xmi:id="_X6qNgIckEe-GVaQ8NkLW7w" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_1Esy4IcxEe-GVaQ8NkLW7w" name="SMXSIC" dataManager="_VeUG4IckEe-GVaQ8NkLW7w"/>
+</xmi:XMI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Zd_VkIcxEe-GVaQ8NkLW7w" comment="connectionComment" label="connectionLabel" dataPackage="_Zd_VkYcxEe-GVaQ8NkLW7w" mappingTypeUsed="true" mappingTypeId="teradata_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_Zd_VkYcxEe-GVaQ8NkLW7w" dataManager="_Zd_VkIcxEe-GVaQ8NkLW7w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Zd_VkocxEe-GVaQ8NkLW7w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vk4cxEe-GVaQ8NkLW7w" name="CODIGOCOMPANIA" id="3587" label="CODIGOCOMPANIA" length="10" sourceType="INTEGER" talendType="id_Integer">
+        <initialValue xmi:id="_Zd_VlIcxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VlYcxEe-GVaQ8NkLW7w" name="CODIGOORDENCOMPRA" id="3588" label="CODIGOORDENCOMPRA" length="10" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_Zd_VlocxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vl4cxEe-GVaQ8NkLW7w" name="CODIGOORDENCOMPRAESTADO" id="3589" label="CODIGOORDENCOMPRAESTADO" length="10" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_Zd_VmIcxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VmYcxEe-GVaQ8NkLW7w" name="ID_FECHA" id="3590" label="ID_FECHA" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_Zd_VmocxEe-GVaQ8NkLW7w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vm4cxEe-GVaQ8NkLW7w" name="CANTIDADPEDIDA" id="3591" label="CANTIDADPEDIDA" length="18" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_Zd_VnIcxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VnYcxEe-GVaQ8NkLW7w" name="PESOPEDIDO" id="3592" label="PESOPEDIDO" length="18" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_Zd_VnocxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vn4cxEe-GVaQ8NkLW7w" name="ID_ESTADO_COM" id="3593" label="ID_ESTADO_COM" length="3" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Zd_VoIcxEe-GVaQ8NkLW7w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VoYcxEe-GVaQ8NkLW7w" name="NUM_UNIDADES" id="3594" label="NUM_UNIDADES" length="10" sourceType="INTEGER" talendType="id_Integer">
+        <initialValue xmi:id="_Zd_VoocxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vo4cxEe-GVaQ8NkLW7w" name="CODIGOPROVEEDOR" id="3595" label="CODIGOPROVEEDOR" length="10" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Zd_VpIcxEe-GVaQ8NkLW7w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VpYcxEe-GVaQ8NkLW7w" name="COD_BARRAS" id="3596" label="COD_BARRAS" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Zd_VpocxEe-GVaQ8NkLW7w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vp4cxEe-GVaQ8NkLW7w" name="ID_ITEM" id="3597" label="ID_ITEM" length="19" sourceType="BIGINT" talendType="id_Long">
+        <initialValue xmi:id="_Zd_VqIcxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VqYcxEe-GVaQ8NkLW7w" name="UNIDAD_COM" id="3598" label="UNIDAD_COM" length="256" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Zd_VqocxEe-GVaQ8NkLW7w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vq4cxEe-GVaQ8NkLW7w" name="VALORTIPOCONTROLCOSTO" id="3599" label="VALORTIPOCONTROLCOSTO" length="3" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Zd_VrIcxEe-GVaQ8NkLW7w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VrYcxEe-GVaQ8NkLW7w" name="PRECIO_CTO_ACT" id="3600" label="PRECIO_CTO_ACT" length="15" sourceType="FLOAT" talendType="id_Double">
+        <initialValue xmi:id="_Zd_VrocxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vr4cxEe-GVaQ8NkLW7w" name="PESO_APROX" id="3601" label="PESO_APROX" length="15" sourceType="FLOAT" talendType="id_Double">
+        <initialValue xmi:id="_Zd_VsIcxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VsYcxEe-GVaQ8NkLW7w" name="PRECIO_COSTO_NETO" id="3602" label="PRECIO_COSTO_NETO" length="15" sourceType="FLOAT" talendType="id_Double">
+        <initialValue xmi:id="_Zd_VsocxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vs4cxEe-GVaQ8NkLW7w" name="TOTAL_COSTO_NETO" id="3603" label="TOTAL_COSTO_NETO" length="18" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_Zd_VtIcxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_VtYcxEe-GVaQ8NkLW7w" name="TOTAL_CON_IMPUESTOS" id="3604" label="TOTAL_CON_IMPUESTOS" length="18" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_Zd_VtocxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zd_Vt4cxEe-GVaQ8NkLW7w" name="CANT_REF" id="3605" label="CANT_REF" length="18" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_Zd_VuIcxEe-GVaQ8NkLW7w" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

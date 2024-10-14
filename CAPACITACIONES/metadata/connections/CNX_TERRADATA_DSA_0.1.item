@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_N-qzkIcmEe-GVaQ8NkLW7w" name="CNX_TERRADATA_DSA" id="_9eEvEIclEe-GVaQ8NkLW7w" label="CNX_TERRADATA_DSA" dataPackage="_Lmx5sIcnEe-GVaQ8NkLW7w" DatabaseType="Teradata" DriverClass="com.teradata.jdbc.TeraDriver" URL="jdbc:teradata://C33251997/DATABASE=DSA," Port="" Username="SMXUSER_CRM" Password="enc:system.encryption.key.v1:Tj6gTM5jqxfwVc70BxOcrJ3uMoMf8VI23g26iB2u+T1/YCgobmfz" ServerName="C33251997" DatasourceName="" FileFieldName="" SID="DSA" SqlSynthax="" StringQuote="" NullChar="" DbmsId="teradata_id" ProductId="TERADATA" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="DSA" supportNLS="false">
+    <taggedValue xmi:id="_N-qzkYcmEe-GVaQ8NkLW7w" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_N_ItoIcmEe-GVaQ8NkLW7w" tag="package filter" value=""/>
+    <taggedValue xmi:id="_N_ItoYcmEe-GVaQ8NkLW7w" tag="Status" value=""/>
+    <taggedValue xmi:id="_N_ItoocmEe-GVaQ8NkLW7w" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_N_Ito4cmEe-GVaQ8NkLW7w" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_N_ItpIcmEe-GVaQ8NkLW7w" tag="Description" value=""/>
+    <taggedValue xmi:id="_N_ItpYcmEe-GVaQ8NkLW7w" tag="Author" value=""/>
+    <taggedValue xmi:id="_N_ItpocmEe-GVaQ8NkLW7w" tag="otherParameter"/>
+    <taggedValue xmi:id="_OQHv8IcmEe-GVaQ8NkLW7w" tag="DB ProductName" value="Teradata"/>
+    <taggedValue xmi:id="_OQHv8YcmEe-GVaQ8NkLW7w" tag="DB ProductVersion" value="Teradata Database 17.05.05.04"/>
+    <taggedValue xmi:id="_OQHv8ocmEe-GVaQ8NkLW7w" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_N-qzkocmEe-GVaQ8NkLW7w" key="CONN_PARA_KEY_USERNAME" value="SMXUSER_CRM"/>
+    <parameters xmi:id="_SbVMIIcmEe-GVaQ8NkLW7w" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Lmx5sIcnEe-GVaQ8NkLW7w" name="DSA" dataManager="_N-qzkIcmEe-GVaQ8NkLW7w"/>
+</xmi:XMI>
