@@ -5,7 +5,7 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_IkWg8YcbEe-GVaQ8NkLW7w" login="jm.rosero.g@binforma" firstName="Johanna" lastName="Rosero" type="DQ"/>
   <TalendProperties:User xmi:id="_zChzoopOEe-lBaoEzQFxaw" login="mebenitez@binforma" firstName="Michelle" lastName="Benitez" type="DQ"/>
-  <TalendProperties:User xmi:id="_4FHrMIv4Ee-kWKsZbTfhPA" login="edison.quispillo@binforma" firstName="Edison" lastName="Quispillo" type="DQ"/>
-  <TalendProperties:User xmi:id="_4FHrMYv4Ee-kWKsZbTfhPA" login="bi.analyst_7@binforma" firstName="David" lastName="Beltrán" type="DQ"/>
-  <TalendProperties:User xmi:id="_4FHrMov4Ee-kWKsZbTfhPA" login="seurquizo@binforma" firstName="Santiago" lastName="Urquizo" type="DQ"/>
+  <TalendProperties:User xmi:id="_MqlZ0Ip5Ee-JyYPhmRqAyA" login="edison.quispillo@binforma" firstName="Edison" lastName="Quispillo" type="DQ"/>
+  <TalendProperties:User xmi:id="_MqlZ0Yp5Ee-JyYPhmRqAyA" login="bi.analyst_7@binforma" firstName="David" lastName="Beltrán" type="DQ"/>
+  <TalendProperties:User xmi:id="_MqlZ0op5Ee-JyYPhmRqAyA" login="seurquizo@binforma" firstName="Santiago" lastName="Urquizo" type="DQ"/>
 </xmi:XMI>
