@@ -1,0 +1,24 @@
+{
+  "itemId" : "_4Fdb0IprEe-7zLrItXtEKA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_uZXI8Ip2Ee-7zLrItXtEKA",
+    "parameterList" : [ {
+      "id" : "_uZfEwop2Ee-7zLrItXtEKA",
+      "name" : "VG_PathLocal_SU"
+    }, {
+      "id" : "_uZfEwYp2Ee-7zLrItXtEKA",
+      "name" : "VG_ServiceAccount_SU"
+    } ]
+  }, {
+    "contextName" : "PRO",
+    "repoId" : "_uZXI8Ip2Ee-7zLrItXtEKA",
+    "parameterList" : [ {
+      "id" : "_uZfExYp2Ee-7zLrItXtEKA",
+      "name" : "VG_PathLocal_SU"
+    }, {
+      "id" : "_uZfExIp2Ee-7zLrItXtEKA",
+      "name" : "VG_ServiceAccount_SU"
+    } ]
+  } ]
+}
