@@ -1,0 +1,36 @@
+{
+  "itemId" : "_J-x2cI2QEe-zmv6fe5FrNg",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_tnK3AIp2Ee-6NLeTsLlgBQ",
+    "parameterList" : [ {
+      "id" : "_tnXrUop2Ee-6NLeTsLlgBQ",
+      "name" : "VG_PathLocal_EQ"
+    }, {
+      "id" : "_tnXrUYp2Ee-6NLeTsLlgBQ",
+      "name" : "VG_ServicesAccount_EQ"
+    }, {
+      "id" : "_2uvBwI2SEe-zmv6fe5FrNg",
+      "name" : "VG_STAGING"
+    }, {
+      "id" : "_2uvBwY2SEe-zmv6fe5FrNg",
+      "name" : "VG_WAREHOUSE"
+    } ]
+  }, {
+    "contextName" : "PRO",
+    "repoId" : "_tnK3AIp2Ee-6NLeTsLlgBQ",
+    "parameterList" : [ {
+      "id" : "_tnXrVYp2Ee-6NLeTsLlgBQ",
+      "name" : "VG_PathLocal_EQ"
+    }, {
+      "id" : "_tnXrVIp2Ee-6NLeTsLlgBQ",
+      "name" : "VG_ServicesAccount_EQ"
+    }, {
+      "id" : "_2uvBwo2SEe-zmv6fe5FrNg",
+      "name" : "VG_STAGING"
+    }, {
+      "id" : "_2uvBw42SEe-zmv6fe5FrNg",
+      "name" : "VG_WAREHOUSE"
+    } ]
+  } ]
+}
