@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_gvHl0ZLiEe-PVKxfajTsVw" label="connectionLabel" mappingTypeId="as400_id" mappingTypeUsed="true" xmi:id="_gvHl0JLiEe-PVKxfajTsVw"/>
+  <TalendMetadata:GenericPackage dataManager="_gvHl0JLiEe-PVKxfajTsVw" xmi:id="_gvHl0ZLiEe-PVKxfajTsVw">
+    <ownedElement label="metadata" xmi:id="_gvHl0pLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataTable">
+      <feature comment="codigo de la compania" id="0" key="true" label="CODIGOCOMPANIA" length="10" name="CODIGOCOMPANIA" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_gvHl05LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl1JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="codigo asignado a la empresa" id="1" key="true" label="CODIGOEMPRESA" length="10" name="CODIGOEMPRESA" nullable="false" sourceType="DOUBLE" talendType="id_Double" xmi:id="_gvHl1ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl1pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="numero de ruc del SRI" id="2" label="NUMERORUC" length="30" name="NUMERORUC" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl15LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl2JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="nombre corto de la empresa" id="3" label="NOMBRECORTOEMPRESA" length="150" name="NOMBRECORTOEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl2ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl2pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="nombre comercial de la empresa" id="4" label="NOMBRECOMERCIALEMPRESA" length="150" name="NOMBRECOMERCIALEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl25LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl3JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="razon social de la empresa" id="5" label="RAZONSOCIALEMPRESA" length="150" name="RAZONSOCIALEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl3ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl3pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="observaciones emitidas a la empresa" id="6" label="OBSERVACIONESEMPRESA" length="400" name="OBSERVACIONESEMPRESA" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl35LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl4JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="comentarios realizados por la empresa" id="7" label="COMENTARIOEMPRESA" length="400" name="COMENTARIOEMPRESA" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl4ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl4pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="actividad a la que se dedica la empresa" id="8" label="ACTIVIDADEMPRESA" length="128" name="ACTIVIDADEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl45LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl5JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="numero de localizaciones registradas en la empresa" id="9" label="NUMEROLOCALIZACIONES" length="10" name="NUMEROLOCALIZACIONES" sourceType="INTEGER" talendType="id_Integer" xmi:id="_gvHl5ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl5pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="numero de resolucion del SRI por la cual se le considera contribuyente especial" id="10" label="RESOLUCIONCONTRIBUYENTEESPECIA" length="6" name="RESOLUCIONCONTRIBUYENTEESPECIA" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl55LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl6JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="fecha en la cual se constituyo la empresa" id="11" label="FECHACONSTITUCION" length="26" name="FECHACONSTITUCION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl6ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl6pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="tipo de empresa PUB: publica PRI: Privada" id="12" label="TIPOEMPRESA" length="3" name="TIPOEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl65LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl7JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="codigo del catalogo de tipos de empresa" id="13" label="TIPOEMPRESATIC" length="10" name="TIPOEMPRESATIC" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_gvHl7ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl7pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="estado de la empresa valores: ACT: activa SUS: suspendida CAN: cancelada" id="14" label="ESTADOEMPRESA" length="3" name="ESTADOEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl75LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl8JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="codigo del catalogo de estado de la empresa" id="15" label="ESTADOEMPRESATIC" length="10" name="ESTADOEMPRESATIC" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_gvHl8ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl8pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="origen de dato MIG: Migracion COR: corporativo " id="16" label="ORIGENDATO" length="3" name="ORIGENDATO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl85LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl9JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="codigo del catalogo de origenes de datos" id="17" label="ORIGENDATOTIC" length="10" name="ORIGENDATOTIC" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_gvHl9ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl9pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="usuario que realizo el registro" id="18" label="USUARIOREGISTRO" length="32" name="USUARIOREGISTRO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl95LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl-JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="fecha de registro" id="19" label="FECHAREGISTRO" length="26" name="FECHAREGISTRO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl-ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl-pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="usuario que realizo la ultima modificacion" id="20" label="USUARIOMODIFICACION" length="32" name="USUARIOMODIFICACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl-5LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl_JLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="fecha de la ultima modificacion" id="21" label="FECHAMODIFICACION" length="26" name="FECHAMODIFICACION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl_ZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHl_pLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="Indica si una empresa es sujeto pasivos del Impuesto a la Renta y por tanto, a quienes se les debe efectuar transferencias con tarifa 12% de IVA." id="22" label="SUJETOPASIVOIVA" length="3" name="SUJETOPASIVOIVA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHl_5LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'INA'" xmi:id="_gvHmAJLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="Código del catálogo valor para identificar el tipo de documento .&#10;[RUC]:Registro Único de Contribuyentes.&#10;[DOC]:Documento internacional." id="23" label="VALORTIPODOCUMENTO" length="3" name="VALORTIPODOCUMENTO" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHmAZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHmApLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="Código de catálogo tipo al que se refiere los valores permitidos de tipo de documento." id="24" label="CODIGOTIPODOCUMENTO" length="10" name="CODIGOTIPODOCUMENTO" sourceType="INTEGER" talendType="id_Integer" xmi:id="_gvHmA5LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHmBJLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature comment="Especifica si el registro esta integrado con el SISTAR. Posibles valores: &#10;0 No esta integrado &#10;1 Si esta integrado&#10;2 Error en la integracion" id="25" label="ESTAINTEGRADOSISTAR" length="1" name="ESTAINTEGRADOSISTAR" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHmBZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHmBpLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature id="26" label="RELACIONES" length="256" name="RELACIONES" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHmB5LiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_gvHmCJLiEe-PVKxfajTsVw"/>
+      </feature>
+      <feature id="27" label="VALIDACION" length="1" name="VALIDACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_gvHmCZLiEe-PVKxfajTsVw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'0'" xmi:id="_gvHmCpLiEe-PVKxfajTsVw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_be614476-8b15-4b01-ad83-c2c1e0628917"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Us5aGlXA7J/LM5Vi53Rw2NS/fyiQm6HMFxpg8zLaiRHTxqgbrkannSZVhlwXFfvJ8c45iMwzXydo&#13;
+yffHNMVd6A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_999c78cc-ca71-4c51-8ecc-2910efc225be"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>b+hFIS9zMbkZkgmYUSsYDjqVni/EtNGt7cPUXLUBVmPN45CKu8PJYfED1oTwvUX9cllysfbdxQxH&#13;
+cdIMS+NL+Q==</DigestValue></Reference></SignedInfo><SignatureValue>mbTSkv6QR/noX+OSZmBn0U3cedgFp2R4fPUEuepy4268PBWcvI8j0Kh5XP6kr9lgVzDkQfTfhbXl&#13;
+/qK18gFIqMWJOvC3gK8WFRwXzTtyr2m9TBpijfXvLe4v3P8r/QiziWm0ShhHn5cXQo9JRVTecVlP&#13;
+OGQ6msD4EON1AFUN8SI5ObE/5ZIl6BF/4YrCzfhxFZggbfj/ff6nvVp7XVAqUcqI7KEE9KtUWExl&#13;
+ZpGI7bQF3Z81biAOi6UotdNRrghlEz+PLwYdO9iF5BJ/lSI9UYM5ssyvF8ZBOOCuSSRawgFFvPjd&#13;
+7/z5BznH/PInxvvahs/A/xLhQtMGQbR+dnFscw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_999c78cc-ca71-4c51-8ecc-2910efc225be" Target="#_be614476-8b15-4b01-ad83-c2c1e0628917"><Timestamp>2024-10-25 15:05:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
