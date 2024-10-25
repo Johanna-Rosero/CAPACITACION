@@ -1,19 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_VeUG4IckEe-GVaQ8NkLW7w" name="CNX_DB2_B105FAB2_SMXSIC" id="_M9DF4IcjEe-GVaQ8NkLW7w" label="CNX_DB2_B105FAB2_SMXSIC" dataPackage="_1Esy4IcxEe-GVaQ8NkLW7w" DatabaseType="AS400" DriverClass="com.ibm.as400.access.AS400JDBCDriver" URL="jdbc:as400://B105FAB2/SMXSIC;prompt=false" dbVersionString="AS400_V7R1_V7R3" Port="" Username="smxbi" Password="enc:system.encryption.key.v1:PSyrxjSFFVVqhA9d5nnbYuVGnU2E+rCSoIqnOYX4kt3YAtbH" ServerName="B105FAB2" DatasourceName="" FileFieldName="" SID="SMXSIC" SqlSynthax="" StringQuote="" NullChar="" DbmsId="as400_id" ProductId="AS400" AdditionalParams="prompt=false" StandardSQL="true" SQLMode="false" UiSchema="SMXSIC" supportNLS="false">
-    <taggedValue xmi:id="_VeUG4YckEe-GVaQ8NkLW7w" tag="Is Conn Need Reload" value="false"/>
-    <taggedValue xmi:id="_Ve0dMIckEe-GVaQ8NkLW7w" tag="package filter" value=""/>
-    <taggedValue xmi:id="_Ve58wIckEe-GVaQ8NkLW7w" tag="Status" value=""/>
-    <taggedValue xmi:id="_Ve58wYckEe-GVaQ8NkLW7w" tag="Version" value="0.1"/>
-    <taggedValue xmi:id="_Ve58wockEe-GVaQ8NkLW7w" tag="Purpose" value=""/>
-    <taggedValue xmi:id="_Ve58w4ckEe-GVaQ8NkLW7w" tag="Description" value=""/>
-    <taggedValue xmi:id="_Ve58xIckEe-GVaQ8NkLW7w" tag="Author" value=""/>
-    <taggedValue xmi:id="_Ve58xYckEe-GVaQ8NkLW7w" tag="otherParameter"/>
-    <taggedValue xmi:id="_1Bz28IcxEe-GVaQ8NkLW7w" tag="DB ProductName" value="DB2 UDB for AS/400"/>
-    <taggedValue xmi:id="_1Bz28YcxEe-GVaQ8NkLW7w" tag="DB ProductVersion" value="07.04.0000 V7R4m0"/>
-    <taggedValue xmi:id="_1Bz28ocxEe-GVaQ8NkLW7w" tag="DB IdentifierQuoteString" value=""/>
-    <parameters xmi:id="_VeUG4ockEe-GVaQ8NkLW7w" key="CONN_PARA_KEY_USERNAME" value="smxbi"/>
-    <parameters xmi:id="_X6qNgIckEe-GVaQ8NkLW7w" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="prompt=false" DatabaseType="AS400" DatasourceName="" DbmsId="as400_id" DriverClass="com.ibm.as400.access.AS400JDBCDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:PSyrxjSFFVVqhA9d5nnbYuVGnU2E+rCSoIqnOYX4kt3YAtbH" Port="" ProductId="AS400" SID="SMXSIC" SQLMode="false" ServerName="B105FAB2" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:as400://B105FAB2/SMXSIC;prompt=false" UiSchema="SMXSIC" Username="smxbi" dataPackage="_1Esy4IcxEe-GVaQ8NkLW7w" dbVersionString="AS400_V7R1_V7R3" id="_M9DF4IcjEe-GVaQ8NkLW7w" label="CNX_DB2_B105FAB2_SMXSIC" name="CNX_DB2_B105FAB2_SMXSIC" supportNLS="false" xmi:id="_VeUG4IckEe-GVaQ8NkLW7w">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_VeUG4YckEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="package filter" value="" xmi:id="_Ve0dMIckEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="Status" value="" xmi:id="_Ve58wIckEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_Ve58wYckEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_Ve58wockEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="Description" value="" xmi:id="_Ve58w4ckEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="Author" value="" xmi:id="_Ve58xIckEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="otherParameter" xmi:id="_Ve58xYckEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="DB ProductName" value="DB2 UDB for AS/400" xmi:id="_1Bz28IcxEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="DB ProductVersion" value="07.04.0000 V7R4m0" xmi:id="_1Bz28YcxEe-GVaQ8NkLW7w"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="" xmi:id="_1Bz28ocxEe-GVaQ8NkLW7w"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="smxbi" xmi:id="_VeUG4ockEe-GVaQ8NkLW7w"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_X6qNgIckEe-GVaQ8NkLW7w"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Schema xmi:id="_1Esy4IcxEe-GVaQ8NkLW7w" name="SMXSIC" dataManager="_VeUG4IckEe-GVaQ8NkLW7w"/>
-</xmi:XMI>
+  <orgomg.cwm.resource.relational:Schema dataManager="_VeUG4IckEe-GVaQ8NkLW7w" name="SMXSIC" xmi:id="_1Esy4IcxEe-GVaQ8NkLW7w">
+    <ownedElement id="_AQdgUJMdEe-VZKJU5z0lOQ" label="SCSPETBODEGA" name="SCSPETBODEGA" tableType="TABLE" xmi:id="_AQfVgJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdTable">
+      <taggedValue tag="SYSTEM_TABLE_NAME" value="SCSPE00007" xmi:id="_AQfVgZMdEe-VZKJU5z0lOQ"/>
+      <taggedValue tag="SYSTEM_TABLE_SCHEMA" value="SMXSIC" xmi:id="_AQfVgpMdEe-VZKJU5z0lOQ"/>
+      <taggedValue tag="TABLE_SCHEMA" value="SMXSIC" xmi:id="_AQfVg5MdEe-VZKJU5z0lOQ"/>
+      <feature comment="Código de la companía" key="true" label="CODIGOCOMPANIA" length="10" name="CODIGOCOMPANIA" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_AQfVhJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código de la companía" xmi:id="_AQfVhZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVhpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="4" name="INTEGER" numericPrecisionRadix="10" xmi:id="_AQfVh5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Código de la bodega" key="true" label="CODIGOBODEGA" length="10" name="CODIGOBODEGA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfViJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código de la bodega" xmi:id="_AQfViZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVipMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_AQfVi5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Código de la bodega padre, es decir, de la bodega de la jerarquía superior en su árbol de registros" label="CODIGOBODEGAPADRE" length="10" name="CODIGOBODEGAPADRE" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfVjJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código de la bodega padre, es decir, de la bodega de la jerarquía superior en su árbol de registros" xmi:id="_AQfVjZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVjpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_AQfVj5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Descripción de la bodega" label="DESCRIPCIONBODEGA" length="100" name="DESCRIPCIONBODEGA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfVkJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Descripción de la bodega" xmi:id="_AQfVkZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVkpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_AQfVk5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Estado de la bodega, los valores pueden ser: [1] Activo, [0] Inactivo" label="ESTADOBODEGA" length="1" name="ESTADOBODEGA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfVlJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Estado de la bodega, los valores pueden ser: [1] Activo, [0] Inactivo" xmi:id="_AQfVlZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVlpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_AQfVl5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Fecha de última actualización del registro." label="FECHAULTIMAACTUALIZACION" length="26" name="FECHAULTIMAACTUALIZACION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_AQfVmJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de última actualización del registro." xmi:id="_AQfVmZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVmpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="TIMESTAMP" nullable="columnNullable" numericPrecision="6" xmi:id="_AQfVm5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="El usuario que relizó la última actualización sobre el registro" label="USUARIOACTUALIZACION" length="32" name="USUARIOACTUALIZACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfVnJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="El usuario que relizó la última actualización sobre el registro" xmi:id="_AQfVnZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVnpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_AQfVn5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Indica el usuario que creó el registro" label="USUARIOCREACION" length="32" name="USUARIOCREACION" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfVoJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica el usuario que creó el registro" xmi:id="_AQfVoZMdEe-VZKJU5z0lOQ"/>
+        <initialValue body="'FRM0'" language="COLUMN_DEF" xmi:id="_AQfVopMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_AQfVo5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Indica la fecha en que fue creado el registro" label="FECHACREACION" length="26" name="FECHACREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_AQfVpJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica la fecha en que fue creado el registro" xmi:id="_AQfVpZMdEe-VZKJU5z0lOQ"/>
+        <initialValue body="'CURRENT_TIMESTAMP'" language="COLUMN_DEF" xmi:id="_AQfVppMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="TIMESTAMP" numericPrecision="6" xmi:id="_AQfVp5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Inicial con el tipo de bodega. [F] para Frios y [S] para Secos." label="TIPOBODEGA" length="1" name="TIPOBODEGA" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfVqJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Inicial con el tipo de bodega. [F] para Frios y [S] para Secos." xmi:id="_AQfVqZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVqpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_AQfVq5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Código del tipo de bodega estructura logistica en el catálogo" label="CODIGOTIPOBODEGA" length="10" name="CODIGOTIPOBODEGA" sourceType="INTEGER" talendType="id_Integer" xmi:id="_AQfVrJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código del tipo de bodega estructura logistica en el catálogo" xmi:id="_AQfVrZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVrpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="4" name="INTEGER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_AQfVr5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Valor del tipo de bodega estructura logistica en el catálogo" label="VALORTIPOBODEGA" length="3" name="VALORTIPOBODEGA" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfVsJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Valor del tipo de bodega estructura logistica en el catálogo" xmi:id="_AQfVsZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVspMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" xmi:id="_AQfVs5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Especifica el código de bodega que maneja el SIC" label="CODIGOREFERENCIA" length="10" name="CODIGOREFERENCIA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_AQfVtJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Especifica el código de bodega que maneja el SIC" xmi:id="_AQfVtZMdEe-VZKJU5z0lOQ"/>
+        <initialValue body="'0'" language="COLUMN_DEF" xmi:id="_AQfVtpMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR" xmi:id="_AQfVt5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+      <feature comment="Especifica el código con la area de trabajo" label="CODIGOAREATRABAJO" length="10" name="CODIGOAREATRABAJO" sourceType="INTEGER" talendType="id_Integer" xmi:id="_AQfVuJMdEe-VZKJU5z0lOQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Especifica el código con la area de trabajo" xmi:id="_AQfVuZMdEe-VZKJU5z0lOQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_AQfVupMdEe-VZKJU5z0lOQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="4" name="INTEGER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_AQfVu5MdEe-VZKJU5z0lOQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a1e7d0f3-0572-4e81-b6a0-2d075481db43"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g4YF9BoKbuIfcX9qsib341AqdrcrCP4dxQHz2O1br8czcFCVyjM/ukjQpJ0MXyYD+IaC0jX1EGa2&#13;
++tkHx69+MA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b5178057-45c3-4254-a8be-237d4e1fa286"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5LlMmtj+pt6LrSucpfDDZuaI9z5URm/S7jPGx/efOyq7TITSHZ3IFpSmzsuMaQrUcPeFByVPP8Lf&#13;
+HfNmqVF1ag==</DigestValue></Reference></SignedInfo><SignatureValue>HMz4M7djdN0YeTchwHI5XiePZqojuFRrMZ6AahdCeO3RYO4rOqs2VnAhIB5DM5JVjXVg0oCdalXl&#13;
+1RlJjkz7KqZ6/6xwy/Zt4fMSBHRzKu3mikckDkNow7wpZOiTG9ZRvc3Om7Hk7RnPdmBlCZtYPzMi&#13;
+sEzVfSWDA5vpfgcYmJ+fj6r8W291vYxFnWwbGpkjN1Rqif9EMzOPnblgFR/kecn7dx95oadsKRDW&#13;
+Y8aw6xOhVkLf7FQAGwq90grFYuLkEvSMGD3OqhJvJHF1oOOOL/qvBw4zvMeNt8F+C6PuH7bCpGTt&#13;
+zhqkthi4q1xCzz7mvb28hZjPxmb5onoRIfoXqQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b5178057-45c3-4254-a8be-237d4e1fa286" Target="#_a1e7d0f3-0572-4e81-b6a0-2d075481db43"><Timestamp>2024-10-25 22:04:01</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
