@@ -107,16 +107,6 @@
   </parameters>
   <node componentName="tAS400Input" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tAS400Input"/>
-    <elementParameter field="TEXT" name="VERSION" show="false" value="0.102 (ALPHA)"/>
-    <elementParameter field="TEXT" name="FAMILY" show="false" value="Databases/DB Specifics/AS400"/>
-    <elementParameter field="CHECK" name="START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
-    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tAS400Input"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
@@ -206,7 +196,7 @@
       <column comment="codigo de la compania" key="true" length="10" name="CODIGOCOMPANIA" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value="codigo de la compania"/>
       </column>
-      <column comment="codigo asignado a la empresa" key="true" length="10" name="CODIGOEMPRESA" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+      <column comment="codigo asignado a la empresa" key="true" length="-1" name="CODIGOEMPRESA" nullable="false" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value="codigo asignado a la empresa"/>
       </column>
       <column comment="numero de ruc del SRI" key="false" length="30" name="NUMERORUC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -236,7 +226,7 @@
       <column comment="numero de resolucion del SRI por la cual se le considera contribuyente especial" key="false" length="6" name="RESOLUCIONCONTRIBUYENTEESPECIA" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="numero de resolucion del SRI por la cual se le considera contribuyente especial"/>
       </column>
-      <column comment="fecha en la cual se constituyo la empresa" key="false" length="26" name="FECHACONSTITUCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="fecha en la cual se constituyo la empresa" key="false" length="26" name="FECHACONSTITUCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="fecha en la cual se constituyo la empresa"/>
       </column>
       <column comment="tipo de empresa PUB: publica PRI: Privada" key="false" length="3" name="TIPOEMPRESA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -260,13 +250,13 @@
       <column comment="usuario que realizo el registro" key="false" length="32" name="USUARIOREGISTRO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="usuario que realizo el registro"/>
       </column>
-      <column comment="fecha de registro" key="false" length="26" name="FECHAREGISTRO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="fecha de registro" key="false" length="26" name="FECHAREGISTRO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="fecha de registro"/>
       </column>
       <column comment="usuario que realizo la ultima modificacion" key="false" length="32" name="USUARIOMODIFICACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="usuario que realizo la ultima modificacion"/>
       </column>
-      <column comment="fecha de la ultima modificacion" key="false" length="26" name="FECHAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="fecha de la ultima modificacion" key="false" length="26" name="FECHAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="fecha de la ultima modificacion"/>
       </column>
       <column comment="Indica si una empresa es sujeto pasivos del Impuesto a la Renta y por tanto, a quienes se les debe efectuar transferencias con tarifa 12% de IVA." defaultValue="'INA'" key="false" length="3" name="SUJETOPASIVOIVA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -278,13 +268,13 @@
       <column comment="Código de catálogo tipo al que se refiere los valores permitidos de tipo de documento." key="false" length="10" name="CODIGOTIPODOCUMENTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value="Código de catálogo tipo al que se refiere los valores permitidos de tipo de documento."/>
       </column>
-      <column comment="Especifica si el registro esta integrado con el SISTAR. Posibles valores: &#10;0 No esta integrado &#10;1 Si esta integrado&#10;2 Error en la integracion" key="false" length="1" name="ESTAINTEGRADOSISTAR" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="Especifica si el registro esta integrado con el SISTAR. Posibles valores: &#10;0 No esta integrado &#10;1 Si esta integrado&#10;2 Error en la integracion" key="false" length="1" name="ESTAINTEGRADOSISTAR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Especifica si el registro esta integrado con el SISTAR. Posibles valores: &#10;0 No esta integrado &#10;1 Si esta integrado&#10;2 Error en la integracion"/>
       </column>
       <column comment="" key="false" length="256" name="RELACIONES" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" defaultValue="'0'" key="false" length="1" name="VALIDACION" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" defaultValue="'0'" key="false" length="1" name="VALIDACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="SYSTEM_TABLE_NAME" value="SSEMP00003"/>
@@ -315,7 +305,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="salida" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.CODIGOCOMPANIA " name="CODIGOCOMPANIA" type="id_Integer"/>
@@ -323,7 +313,7 @@
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="CODIGOCOMPANIA" type="id_Integer"/>
-        <mapperTableEntries name="CODIGOEMPRESA" type="id_BigDecimal"/>
+        <mapperTableEntries name="CODIGOEMPRESA" type="id_Double"/>
         <mapperTableEntries name="NUMERORUC" type="id_String"/>
         <mapperTableEntries name="NOMBRECORTOEMPRESA" type="id_String"/>
         <mapperTableEntries name="NOMBRECOMERCIALEMPRESA" type="id_String"/>
@@ -333,7 +323,7 @@
         <mapperTableEntries name="ACTIVIDADEMPRESA" type="id_String"/>
         <mapperTableEntries name="NUMEROLOCALIZACIONES" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="RESOLUCIONCONTRIBUYENTEESPECIA" nullable="true" type="id_String"/>
-        <mapperTableEntries name="FECHACONSTITUCION" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="FECHACONSTITUCION" nullable="true" type="id_String"/>
         <mapperTableEntries name="TIPOEMPRESA" type="id_String"/>
         <mapperTableEntries name="TIPOEMPRESATIC" type="id_Integer"/>
         <mapperTableEntries name="ESTADOEMPRESA" type="id_String"/>
@@ -341,9 +331,9 @@
         <mapperTableEntries name="ORIGENDATO" type="id_String"/>
         <mapperTableEntries name="ORIGENDATOTIC" type="id_Integer"/>
         <mapperTableEntries name="USUARIOREGISTRO" type="id_String"/>
-        <mapperTableEntries name="FECHAREGISTRO" type="id_Date"/>
+        <mapperTableEntries name="FECHAREGISTRO" type="id_String"/>
         <mapperTableEntries name="USUARIOMODIFICACION" nullable="true" type="id_String"/>
-        <mapperTableEntries name="FECHAMODIFICACION" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="FECHAMODIFICACION" nullable="true" type="id_String"/>
         <mapperTableEntries name="SUJETOPASIVOIVA" type="id_String"/>
         <mapperTableEntries name="VALORTIPODOCUMENTO" nullable="true" type="id_String"/>
         <mapperTableEntries name="CODIGOTIPODOCUMENTO" nullable="true" type="id_Integer"/>
@@ -440,13 +430,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_193f8270-025b-466a-883f-6b46ca783ed4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1tztmtkfFj82Tx5Pg/KbYq1fhNfz7B/VC2AIfYHWjdV07xQyybO/4MgHtOs0H9T7RQzxlyGhuXQF&#13;
-J68uuLt5JA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_999684fa-b759-4fbd-bc7f-09930c755989"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>aLlCY2ICKMcD53hUbRPc0SIW/Z2T6t74qoISazdrTTwEA4GDT7CoVbQDnBtBsuc9TwtBKw7oiOOA&#13;
-esX/lwIgZQ==</DigestValue></Reference></SignedInfo><SignatureValue>fbnYQe2NvNgh/fDMdHwbvLxaQUlV/xyvVwjogRE94e1GC4n0tIn6cstKCeEE3qfDjNwzrq7dhYBR&#13;
-bxulUyzVj+3INsOMf7Xbcu1GK1Ubw8PSiepg9xyiT72LDrMBvhZx1mdlFp2uS2QScogDdsJkTJsP&#13;
-SMbU84EdNK6kVrCxksipvuzMp/MIyj2ryCDr1JJdzfsWYbRBw9IYgN1TlnZpiH0ArM4TNbLUy4j3&#13;
-tiDqMRFBe9+S87M9aIxarQABJmo3SZjpuRppLEq55FrgLiHrUFIFJik6jxCQJ4VBN/NYqjXgq3Rw&#13;
-mXz2cnXBrCgJVT3bkmsxCW5POYJ9IVf2xOLvOA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2ce268c0-8b10-4112-957e-46cf51b14f62"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dqX/ASPgjYi68xc9Je7mKrHDqFEGcpaDxiFgx66LvqSG/GyOftOqVI90VvzxM6qEUwonL5LwAcW1&#13;
+Etb/sop9HA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_76132e30-b3df-4859-96a7-237e4015a05a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZYG0BBDyb7eRSv3/LsW1NJRCT8+ktEJU1ytBhoZI2IOxScTnquwVxkdAeHfONBjFisqbmZwwRlqU&#13;
+YyUv9ZwH2w==</DigestValue></Reference></SignedInfo><SignatureValue>S//Tk7ZDDfSv+0bAxUu+K6po1ID9u+qgz9+1HfH6USB7/wv+JmWIuHw/LUVmyWlxrZ5N5t26VzYQ&#13;
++L3F2bzboTU2GNVv1vXFEmFVpTfH90iPH9u2wQJx+twYxmv8IYkCoOIyqa8tbJg1oGNMCR8xZVNI&#13;
+5JB8yMfpfBYWGoKu9OtgpKe0I/3Oa6Xs4pPmInYvHXd7XFPITBPcIaep1N0nT2XZUAElMRN0CcSy&#13;
+h6Dw3TmNO2n56Jm9CRuS9YFM1/ZbxjHFOYDU+Yjrd6nmxbT0mFCDPIZ6MhS+keSEowGAfaOpsv3a&#13;
+baXgnA6cVHGD36WVmu3RMy8YjM4SMLBVjSs7xQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -468,4 +458,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_999684fa-b759-4fbd-bc7f-09930c755989" Target="#_193f8270-025b-466a-883f-6b46ca783ed4"><Timestamp>2024-10-21 20:43:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_76132e30-b3df-4859-96a7-237e4015a05a" Target="#_2ce268c0-8b10-4112-957e-46cf51b14f62"><Timestamp>2024-10-25 20:03:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

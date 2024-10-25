@@ -1,0 +1,34 @@
+{
+  "itemId" : "_OZq74JMLEe-EBLAyrW_1DQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_lDtywIp3Ee-dRMCGIaJ5IA",
+    "parameterList" : [ {
+      "id" : "_lD9qYop3Ee-dRMCGIaJ5IA",
+      "name" : "VG_PathLocal"
+    }, {
+      "id" : "_lD9qYYp3Ee-dRMCGIaJ5IA",
+      "name" : "VG_ServicesAccount"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_lDtywIp3Ee-dRMCGIaJ5IA",
+    "parameterList" : [ {
+      "id" : "_lD9qZYp3Ee-dRMCGIaJ5IA",
+      "name" : "VG_PathLocal"
+    }, {
+      "id" : "_lD9qZIp3Ee-dRMCGIaJ5IA",
+      "name" : "VG_ServicesAccount"
+    } ]
+  }, {
+    "contextName" : "PRO",
+    "repoId" : "_lDtywIp3Ee-dRMCGIaJ5IA",
+    "parameterList" : [ {
+      "id" : "_lD9qaIp3Ee-dRMCGIaJ5IA",
+      "name" : "VG_PathLocal"
+    }, {
+      "id" : "_lD9qZ4p3Ee-dRMCGIaJ5IA",
+      "name" : "VG_ServicesAccount"
+    } ]
+  } ]
+}
