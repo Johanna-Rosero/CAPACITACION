@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_48n-85MfEe-GDcxFJ09reQ" label="connectionLabel" mappingTypeId="as400_id" mappingTypeUsed="true" xmi:id="_48n-8pMfEe-GDcxFJ09reQ"/>
+  <TalendMetadata:GenericPackage dataManager="_48n-8pMfEe-GDcxFJ09reQ" xmi:id="_48n-85MfEe-GDcxFJ09reQ">
+    <ownedElement label="metadata" xmi:id="_48n-9JMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature id="129020" label="CODIGOCOMPANIA" length="10" name="CODIGOCOMPANIA" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n-9ZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n-9pMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129021" label="CODIGOAREATRABAJO" length="10" name="CODIGOAREATRABAJO" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n-95MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n--JMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129022" label="NOMBREAREATRABAJO" length="100" name="NOMBREAREATRABAJO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n--ZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n--pMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129023" label="ESTADOAREATRABAJO" length="3" name="ESTADOAREATRABAJO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n--5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n-_JMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129024" label="TIPOAREATRABAJO" length="16" name="TIPOAREATRABAJO" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n-_ZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n-_pMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129025" label="CODIGOLOCAL" length="10" name="CODIGOLOCAL" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n-_5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_AJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129026" label="CODIGOAREATRABAJOPADRE" length="10" name="CODIGOAREATRABAJOPADRE" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_AZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_ApMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129027" label="CODIGOPUNTOEMISOR" length="64" name="CODIGOPUNTOEMISOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_A5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_BJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129028" label="CODIGOAREATRABAJOEMBOSSING" length="10" name="CODIGOAREATRABAJOEMBOSSING" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_BZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_BpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129029" label="CODIGOCIUDAD" length="10" name="CODIGOCIUDAD" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_B5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_CJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129030" label="USUARIOREGISTRO" length="32" name="USUARIOREGISTRO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_CZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_CpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129031" label="FECHAREGISTRO" length="26" name="FECHAREGISTRO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_C5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_DJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129032" label="USUARIOMODIFICACION" length="32" name="USUARIOMODIFICACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_DZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_DpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129033" label="FECHAMODIFICACION" length="26" name="FECHAMODIFICACION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_D5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_EJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129034" label="DIRECCIONAREATRABAJO" length="128" name="DIRECCIONAREATRABAJO" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_EZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_EpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129035" label="TIPOAREATRABAJOVALOR" length="3" name="TIPOAREATRABAJOVALOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_E5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_FJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129036" label="TIPOAREATRABAJOTIC" length="10" name="TIPOAREATRABAJOTIC" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_FZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_FpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129037" label="CODIGOFORMATONEGOCIO" length="3" name="CODIGOFORMATONEGOCIO" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_F5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_GJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129038" label="ESMATRIZ" length="1" name="ESMATRIZ" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_GZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_GpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129039" label="CODIGOJDE" length="10" name="CODIGOJDE" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_G5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_HJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129040" label="CODIGOESTABLECIMIENTO" length="10" name="CODIGOESTABLECIMIENTO" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_HZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_HpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129041" label="CODIGOCENTROCOSTO" length="32" name="CODIGOCENTROCOSTO" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_H5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_IJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129042" label="CODIGOREFERENCIA" length="10" name="CODIGOREFERENCIA" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_IZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_IpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129043" label="NOMBRECORTO" length="50" name="NOMBRECORTO" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_I5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_JJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129044" label="CANTIDADEMBOSADORA" length="10" name="CANTIDADEMBOSADORA" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_JZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_JpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129045" label="NATARETRA" length="3" name="NATARETRA" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_J5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_KJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129046" label="CODNATARETRA" length="10" name="CODNATARETRA" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_KZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_KpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129047" label="LATITUD" length="9" name="LATITUD" precision="6" sourceType="DOUBLE" talendType="id_Double" xmi:id="_48n_K5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_LJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129048" label="LONGITUD" length="9" name="LONGITUD" precision="6" sourceType="DOUBLE" talendType="id_Double" xmi:id="_48n_LZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_LpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129049" label="ORIGENAREATRABAJOVALOR" length="3" name="ORIGENAREATRABAJOVALOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_L5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_MJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129050" label="ORIGENAREATRABAJOTIPO" length="10" name="ORIGENAREATRABAJOTIPO" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_MZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_MpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129051" label="CODIGODIVGEOPOL" length="10" name="CODIGODIVGEOPOL" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_M5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_NJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129052" label="CODPAISDIRPRI" length="10" name="CODPAISDIRPRI" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_NZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_NpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129053" label="AGRTERRUTTIC" length="10" name="AGRTERRUTTIC" sourceType="INTEGER" talendType="id_Integer" xmi:id="_48n_N5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_48n_OJMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129054" label="AGRTERRUTVAL" length="3" name="AGRTERRUTVAL" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_OZMfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_OpMfEe-GDcxFJ09reQ"/>
+      </feature>
+      <feature id="129055" label="CLUSTER" length="50" name="CLUSTER" sourceType="VARCHAR" talendType="id_String" xmi:id="_48n_O5MfEe-GDcxFJ09reQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_48n_PJMfEe-GDcxFJ09reQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0987bae8-333a-416f-8816-75b43fd6beaa"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0cjjWoVrBcTJAWmyIHCCNpUgII0G/uIDqsu5aNXpaIzIylALZ8xy63B1nC/RQXBWETdmrKlbOyb2&#13;
+n23wku2vtQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e5f28c4f-6a25-4842-9714-16b45ea6dca6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OWTWqnNPN7Mo9H10Y3U3kopbHLbv9O/6r7nh2/v7bLYmPxk/wxQEygUxgpXatcfwnzzBsFVb6DVk&#13;
+bU1iolup5Q==</DigestValue></Reference></SignedInfo><SignatureValue>Qw/ZvlxNg/dCd1cmJ7+PKrfuIfBJeejO50K+pgnHEyLIbGY67pywSLwMCrljESkegJkjkADNpcs5&#13;
+kIyNULSCfNwgHWw1XJow5zb3eOzp7h2G5bOSXr9TnPehnsSSVxm0NueliwJexJDVVL8hejErLD+7&#13;
+hbl3mEvnwhiI01g5OaKkd2DNS6AqcP8LmXpL7O4EaxE9UVbnM3fYDvYFJqmlY7OKBzmtJO9W+hrZ&#13;
+hiFNecy/Bb/ToAiLxGdTORe6Q7d/Da5LDYn3PIMCmI3qFOzmLORPcLq3t96rbNi4YTfx0yyN91+N&#13;
+2/LRUgiLvclX+ZlGAni4DAcYBHz37m9SwcoJ5A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e5f28c4f-6a25-4842-9714-16b45ea6dca6" Target="#_0987bae8-333a-416f-8816-75b43fd6beaa"><Timestamp>2024-10-25 22:24:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
