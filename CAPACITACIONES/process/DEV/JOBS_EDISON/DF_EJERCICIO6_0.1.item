@@ -288,7 +288,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.VG_PathLocal_EQ+&quot;EJERCICIO6_EQ/SSEMPTEMPRESA.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.VG_PathLocal_EQ+&quot;EJERCICIO6_EQ/SSEMPTEMPRESA/SSEMPTEMPRESA.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -429,7 +429,7 @@
     <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
     <elementParameter field="TEXT" name="GS_PROJECT_ID" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="BUCKET" value="&quot;bkt_dwh&quot;"/>
-    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.VG_PathLocal_EQ+&quot;EJERCICIO6_EQ&quot;"/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.VG_PathLocal_EQ+&quot;EJERCICIO6_EQ/SSEMPTEMPRESA&quot;"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="&quot;Talend/EJERCICIO6_EQ/SSEMPTEMPRESA/&quot;"/>
     <elementParameter field="CHECK" name="USE_FILES_LIST" value="false"/>
     <elementParameter field="TABLE" name="FILES" show="false"/>
@@ -465,7 +465,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileDelete_1"/>
     <elementParameter field="FILE" name="FILENAME" show="false" value="context.VG_PathLocal_EQ+&quot;EJERCICIO6_EQ/SSEMPTEMPRESA.csv&quot;"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" show="false" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace3/delete_folder&quot;"/>
-    <elementParameter field="TEXT" name="PATH" value="context.VG_PathLocal_EQ+&quot;EJERCICIO6_EQ&quot;"/>
+    <elementParameter field="TEXT" name="PATH" value="context.VG_PathLocal_EQ+&quot;EJERCICIO6_EQ/SSEMPTEMPRESA&quot;"/>
     <elementParameter field="CHECK" name="FAILON" value="true"/>
     <elementParameter field="CHECK" name="FOLDER" show="false" value="false"/>
     <elementParameter field="CHECK" name="FOLDER_FILE" value="true"/>
@@ -473,7 +473,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileDelete_1"/>
   </node>
-  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="320">
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_1"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
@@ -544,91 +544,6 @@
       <column comment="" defaultValue="'0'" key="false" length="1" name="VALIDACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tBigQueryOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryOutput_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="bigquery_id"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace3/biquery_bulk.txt&quot;"/>
-    <elementParameter field="CHECK" name="APPEND" value="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_gvAREJLiEe-PVKxfajTsVw - metadata"/>
-    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
-    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:VnlBG2qkFoAKpiI1WrWgiL3NsOcCSAAVuSNdnWbg"/>
-    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
-    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="context.VG_ServicesAccount_EQ"/>
-    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:Y711jAyTWQweQoiIekWvkuh/RxCpexR4S5HlXwc5"/>
-    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
-    <elementParameter field="TEXT" name="DATASET" value="&quot;BI_TMP&quot;"/>
-    <elementParameter field="TEXT" name="TABLE" value="&quot;SSEMPTEMPRESA&quot;"/>
-    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
-    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" show="false" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="GS_SERVICE_ACCOUNT"/>
-    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" value="context.VG_ServicesAccount_EQ"/>
-    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:zGx1aEV6ktwTshketuV2cUNoGz+lGPE1stP7PtKc"/>
-    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
-    <elementParameter field="TEXT" name="BUCKET_NAME" value="&quot;bkt_dwh&quot;"/>
-    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://bkt_dwh/Talend/EJERCICIO6_EQ/SSEMPTEMPRESA/SSEMPTEMPRESA*.csv&quot;"/>
-    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
-    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
-    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
-    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace3/token.properties&quot;"/>
-    <elementParameter field="CHECK" name="USE_12_HOUR_FORMAT" value="false"/>
-    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" show="false" value="true"/>
-    <elementParameter field="TEXT" name="FIELD_DELIMITER" show="false" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;¬&quot;"/>
-    <elementParameter field="CHECK" name="DROP" value="true"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;\\&quot;"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;\&quot;&quot;"/>
-    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="false"/>
-    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="CREATE" value="true"/>
-    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
-    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
-    <elementParameter field="CHECK" name="RECORDS_CONTAIN_NULL_VALUE" show="false" value="true"/>
-    <elementParameter field="CHECK" name="CHECK_DISK_SPACE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;windows-1252&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tBigQueryOutput_1">
-      <column comment="codigo de la compania" key="true" length="10" name="CODIGOCOMPANIA" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="codigo asignado a la empresa" key="true" length="10" name="CODIGOEMPRESA" nullable="false" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="numero de ruc del SRI" key="false" length="30" name="NUMERORUC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="nombre corto de la empresa" key="false" length="150" name="NOMBRECORTOEMPRESA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="nombre comercial de la empresa" key="false" length="150" name="NOMBRECOMERCIALEMPRESA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="razon social de la empresa" key="false" length="150" name="RAZONSOCIALEMPRESA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="observaciones emitidas a la empresa" key="false" length="400" name="OBSERVACIONESEMPRESA" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="comentarios realizados por la empresa" key="false" length="400" name="COMENTARIOEMPRESA" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="actividad a la que se dedica la empresa" key="false" length="128" name="ACTIVIDADEMPRESA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="numero de localizaciones registradas en la empresa" key="false" length="10" name="NUMEROLOCALIZACIONES" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="numero de resolucion del SRI por la cual se le considera contribuyente especial" key="false" length="6" name="RESOLUCIONCONTRIBUYENTEESPECIA" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="fecha en la cual se constituyo la empresa" key="false" length="26" name="FECHACONSTITUCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="tipo de empresa PUB: publica PRI: Privada" key="false" length="3" name="TIPOEMPRESA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="codigo del catalogo de tipos de empresa" key="false" length="10" name="TIPOEMPRESATIC" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="estado de la empresa valores: ACT: activa SUS: suspendida CAN: cancelada" key="false" length="3" name="ESTADOEMPRESA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="codigo del catalogo de estado de la empresa" key="false" length="10" name="ESTADOEMPRESATIC" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="origen de dato MIG: Migracion COR: corporativo " key="false" length="3" name="ORIGENDATO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="codigo del catalogo de origenes de datos" key="false" length="10" name="ORIGENDATOTIC" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="usuario que realizo el registro" key="false" length="32" name="USUARIOREGISTRO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="fecha de registro" key="false" length="26" name="FECHAREGISTRO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="usuario que realizo la ultima modificacion" key="false" length="32" name="USUARIOMODIFICACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="fecha de la ultima modificacion" key="false" length="26" name="FECHAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Indica si una empresa es sujeto pasivos del Impuesto a la Renta y por tanto, a quienes se les debe efectuar transferencias con tarifa 12% de IVA." defaultValue="'INA'" key="false" length="3" name="SUJETOPASIVOIVA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Código del catálogo valor para identificar el tipo de documento .&#10;[RUC]:Registro Único de Contribuyentes.&#10;[DOC]:Documento internacional." key="false" length="3" name="VALORTIPODOCUMENTO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Código de catálogo tipo al que se refiere los valores permitidos de tipo de documento." key="false" length="10" name="CODIGOTIPODOCUMENTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="Especifica si el registro esta integrado con el SISTAR. Posibles valores: &#10;0 No esta integrado &#10;1 Si esta integrado&#10;2 Error en la integracion" key="false" length="1" name="ESTAINTEGRADOSISTAR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="256" name="RELACIONES" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="'0'" key="false" length="1" name="VALIDACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <additionalProperties key="SYSTEM_TABLE_NAME" value="SSEMP00003"/>
-      <additionalProperties key="TABLE_SCHEMA" value="SMXCORP"/>
-      <additionalProperties key="SYSTEM_TABLE_SCHEMA" value="SMXCORP"/>
-    </metadata>
-  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tFileOutputDelimited_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
@@ -644,12 +559,6 @@
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tGSPut_1" offsetLabelX="0" offsetLabelY="0" source="tGSPut_1" target="tBigQueryBulkExec_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
-  </connection>
-  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tGSPut_1" offsetLabelX="0" offsetLabelY="0" source="tGSPut_1" target="tBigQueryOutput_1">
-    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
-    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tGSDelete_1" offsetLabelX="0" offsetLabelY="0" source="tGSDelete_1" target="tFileDelete_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk5"/>
@@ -690,18 +599,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="255;255;255"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryOutput_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="255;255;255"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c47280c8-8b84-49d1-811b-8057fa50479b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8eT2j1BACu6r0eNOKhDvHX8d4qbl1K5xYSGNKpULqzkGlquic6hOdNiDA4a4jXNMR6/O2xhMXxdn&#13;
-a6MqQg158g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b30942ce-5e8b-493d-bb2c-5ba5c8ab831c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>INmkzMWlySADXAbcqKjeKC9zjrBITngwdu5tsyexnXBPJbvYle4cIbd2mbEGaade5ZKXAYNuGSEf&#13;
-Pxwahb/DUA==</DigestValue></Reference></SignedInfo><SignatureValue>M/BkVyIh7OIH9hL2ahy+KN7RVO8m9Wzb1kiVn9erj5vQUWolcSZ6E8igt77R+bTE75VHQpv91bKy&#13;
-tE9K+QpMe6fLWyAxCjjtYRE7GGLxltMztUulinUVQJ99Whj5GwgNJdP/xdLgXwXGOehA663Za6bf&#13;
-ZnVo85aiwLa3Mv3RaCIzonyZRX82Fo8sEKT6hXCuwK40p0lip6ApNkLuBiE4jPijVDIA4XLNCT3D&#13;
-D3s7USADJ+/5ycalJ02/x6dpoXN03A5mtyMFczUsN8+4T9e2VrnYHm9D1RWyzIcZsG8tS6sLXHXx&#13;
-LViMoFhXQkMrs4mJPeWSiGaNGVoc+HgSwZrPuA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9b52493e-f1aa-43b2-a777-85c0d6a8ab39"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2eCgi4BguVgprgxt+lALaqWEzM5Smbs7gcUd1EZ4uZ01GMKU8xkNXC53Ep4ecdhXwuMJK/DQ+J+J&#13;
+2jxYVlnHyg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_80a04160-2bb2-4859-a454-8defbb593fce"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>O1VaIhOt2M0GrQadqlojlAW06tiADjU50QDvICsmitBzj/4NAakJ/Caj7tEmaEXGtzo+BClh+7XA&#13;
+p1S+rhi94w==</DigestValue></Reference></SignedInfo><SignatureValue>OjGdjTDv6Qr/hNKace4+lmFPOW5+1gVgvSjRtaDeytPhu4EEhyl74qA11Uq+G4jQ4GYjPFp9+ZFy&#13;
+wjdA+QP4A3ngIp5FM55zcjjURgf8FSDh2H4wV2QbJwoqCJ4E1Mb33+xcdOzIb5r0lrpvj3W6zai4&#13;
+RJ2MnNGdRtsKKxUPVUL552NQyPZD1YBjMn2CtSIXE5iIcwmwiRiC3K+ooa9qPUl7MiwQtFRFjr/l&#13;
+/DjuvOb5X0dl4getxDQCIBbZ7C9k7lgfLSbhXb9DlhyCbhN8yPAmh3PQ9YCwG9GdYEKJ1BrsNuZv&#13;
+Epxhnyp6ngVSuEAJ0swBMugmHKyygYzyktSo6Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -723,4 +627,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b30942ce-5e8b-493d-bb2c-5ba5c8ab831c" Target="#_c47280c8-8b84-49d1-811b-8057fa50479b"><Timestamp>2024-10-25 18:01:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_80a04160-2bb2-4859-a454-8defbb593fce" Target="#_9b52493e-f1aa-43b2-a777-85c0d6a8ab39"><Timestamp>2024-10-25 22:40:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
