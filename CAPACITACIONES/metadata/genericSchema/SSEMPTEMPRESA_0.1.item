@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_Dad24ZJcEe-kBOnyrwgt0Q" label="connectionLabel" xmi:id="_Dad24JJcEe-kBOnyrwgt0Q"/>
+  <TalendMetadata:GenericPackage dataManager="_Dad24JJcEe-kBOnyrwgt0Q" xmi:id="_Dad24ZJcEe-kBOnyrwgt0Q">
+    <ownedElement label="metadata" xmi:id="_Dad24pJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataTable">
+      <feature comment="codigo de la compania" id="50829" key="true" label="CODIGOCOMPANIA" length="10" name="CODIGOCOMPANIA" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_Dad245JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad25JJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="codigo asignado a la empresa" id="50830" key="true" label="CODIGOEMPRESA" length="10" name="CODIGOEMPRESA" nullable="false" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_Dad25ZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad25pJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="numero de ruc del SRI" id="50831" label="NUMERORUC" length="30" name="NUMERORUC" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad255JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad26JJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="nombre corto de la empresa" id="50832" label="NOMBRECORTOEMPRESA" length="150" name="NOMBRECORTOEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad26ZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad26pJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="nombre comercial de la empresa" id="50833" label="NOMBRECOMERCIALEMPRESA" length="150" name="NOMBRECOMERCIALEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad265JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad27JJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="razon social de la empresa" id="50834" label="RAZONSOCIALEMPRESA" length="150" name="RAZONSOCIALEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad27ZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad27pJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="observaciones emitidas a la empresa" id="50835" label="OBSERVACIONESEMPRESA" length="400" name="OBSERVACIONESEMPRESA" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad275JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad28JJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="comentarios realizados por la empresa" id="50836" label="COMENTARIOEMPRESA" length="400" name="COMENTARIOEMPRESA" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad28ZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad28pJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="actividad a la que se dedica la empresa" id="50837" label="ACTIVIDADEMPRESA" length="128" name="ACTIVIDADEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad285JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad29JJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="numero de localizaciones registradas en la empresa" id="50838" label="NUMEROLOCALIZACIONES" length="10" name="NUMEROLOCALIZACIONES" sourceType="INTEGER" talendType="id_Integer" xmi:id="_Dad29ZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad29pJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="numero de resolucion del SRI por la cual se le considera contribuyente especial" id="50839" label="RESOLUCIONCONTRIBUYENTEESPECIA" length="6" name="RESOLUCIONCONTRIBUYENTEESPECIA" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad295JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad2-JJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="fecha en la cual se constituyo la empresa" id="50840" label="FECHACONSTITUCION" length="26" name="FECHACONSTITUCION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Dad2-ZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad2-pJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="tipo de empresa PUB: publica PRI: Privada" id="50841" label="TIPOEMPRESA" length="3" name="TIPOEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad2-5JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad2_JJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="codigo del catalogo de tipos de empresa" id="50842" label="TIPOEMPRESATIC" length="10" name="TIPOEMPRESATIC" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_Dad2_ZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad2_pJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="estado de la empresa valores: ACT: activa SUS: suspendida CAN: cancelada" id="50843" label="ESTADOEMPRESA" length="3" name="ESTADOEMPRESA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad2_5JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3AJJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="codigo del catalogo de estado de la empresa" id="50844" label="ESTADOEMPRESATIC" length="10" name="ESTADOEMPRESATIC" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_Dad3AZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3ApJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="origen de dato MIG: Migracion COR: corporativo " id="50845" label="ORIGENDATO" length="3" name="ORIGENDATO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad3A5JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3BJJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="codigo del catalogo de origenes de datos" id="50846" label="ORIGENDATOTIC" length="10" name="ORIGENDATOTIC" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_Dad3BZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3BpJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="usuario que realizo el registro" id="50847" label="USUARIOREGISTRO" length="32" name="USUARIOREGISTRO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad3B5JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3CJJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="fecha de registro" id="50848" label="FECHAREGISTRO" length="26" name="FECHAREGISTRO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Dad3CZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3CpJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="usuario que realizo la ultima modificacion" id="50849" label="USUARIOMODIFICACION" length="32" name="USUARIOMODIFICACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad3C5JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3DJJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="fecha de la ultima modificacion" id="50850" label="FECHAMODIFICACION" length="26" name="FECHAMODIFICACION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_Dad3DZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3DpJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="Indica si una empresa es sujeto pasivos del Impuesto a la Renta y por tanto, a quienes se les debe efectuar transferencias con tarifa 12% de IVA." id="50851" label="SUJETOPASIVOIVA" length="3" name="SUJETOPASIVOIVA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad3D5JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'INA'" xmi:id="_Dad3EJJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="Código del catálogo valor para identificar el tipo de documento .&#10;[RUC]:Registro Único de Contribuyentes.&#10;[DOC]:Documento internacional." id="50852" label="VALORTIPODOCUMENTO" length="3" name="VALORTIPODOCUMENTO" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad3EZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3EpJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="Código de catálogo tipo al que se refiere los valores permitidos de tipo de documento." id="50853" label="CODIGOTIPODOCUMENTO" length="10" name="CODIGOTIPODOCUMENTO" sourceType="INTEGER" talendType="id_Integer" xmi:id="_Dad3E5JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3FJJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature comment="Especifica si el registro esta integrado con el SISTAR. Posibles valores: &#10;0 No esta integrado &#10;1 Si esta integrado&#10;2 Error en la integracion" id="50854" label="ESTAINTEGRADOSISTAR" length="1" name="ESTAINTEGRADOSISTAR" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad3FZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3FpJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature id="50855" label="RELACIONES" length="256" name="RELACIONES" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad3F5JcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_Dad3GJJcEe-kBOnyrwgt0Q"/>
+      </feature>
+      <feature id="50856" label="VALIDACION" length="1" name="VALIDACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_Dad3GZJcEe-kBOnyrwgt0Q" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'0'" xmi:id="_Dad3GpJcEe-kBOnyrwgt0Q"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fe85ce7b-2cba-4f5b-8cc3-16c1e014478c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>h8qNl1OOj+8YSxRmIVKejP3jUuXa7acVrcSvQmSutY+aCOTBrTLB5iwO7rHxucaE2KHcUwensoqD&#13;
+68VAhakosQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_86238fce-3ac9-4752-ae9d-a2347df50f7e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SR+mIyKH93aSrsc6B9Jm6w4gVfavdbFnNQqf+xUXQgV5DUbD8LdsQ4FKu1m/9YgkJ4hA4/KX562S&#13;
+1W9jRvX7GA==</DigestValue></Reference></SignedInfo><SignatureValue>EOrYaRXEZd43dci/m45jxv5GmC6po2GoJVYihW24xSv7Yu3t8AkX428i+lxim5qiJ66jf4/ptv+7&#13;
+zVuPWlfDWTL/YF7x/xylFFG7beYDvEQXCkX0i93GCErT4Ba9U0BgRogtYoeRMe1QWb2UppW3DMPf&#13;
+GNipaTZ/6uG2x+xFi70wL2TNcaX0X609QOb+p3jwABUSsaJXLpF/bJ1t5CmpUjONi5MIYyYewSBV&#13;
+o53/P0sgfluadGqnbr5JwjXhEkwtiFZBErqRNEN/sMAqm3ZAvVLcCTsONeCfRzSx62+L6Vmywg6Z&#13;
+i/XvGTUHoloCh61FxQDBjUvzp0BLXEkodCRMGw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_86238fce-3ac9-4752-ae9d-a2347df50f7e" Target="#_fe85ce7b-2cba-4f5b-8cc3-16c1e014478c"><Timestamp>2024-10-24 23:02:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
