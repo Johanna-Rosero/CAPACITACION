@@ -4,6 +4,8 @@
   "requiredInstallableUnits" : [ {
     "id" : "org.talend.bigdata.spark.feature.feature.group"
   }, {
+    "id" : "org.talend.bigdata.streaming.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.amc.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.cdh.x.feature.feature.group"
@@ -106,7 +108,11 @@
   }, {
     "id" : "org.talend.lite.dq.components.spark.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.dq.components.sparkstr.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.dq.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.esb.apidesigner.feature.feature.group"
   }, {
     "id" : "org.talend.lite.metadata.bridge.feature.feature.group"
   }, {
@@ -137,6 +143,8 @@
     "id" : "org.talend.studio.components.tck.kudu.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.odata.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tck.openai.connector.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.pgp.connector.feature.feature.group"
   }, {
