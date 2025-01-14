@@ -311,6 +311,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_ChUsgNKTEe-4bd8cmRpgNQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_C5XR0IpBEe-V7-XnsDzB9A - AUTOS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_DCGaAL4pEe-oeJGnoZKnkQ",
     "version" : "0.1",
     "type" : "job"
