@@ -1,46 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:version="2.0">
-  <TalendMetadata:DatabaseConnection AdditionalParams="prompt=false" DatabaseType="AS400" DatasourceName="" DbmsId="as400_id" DriverClass="com.ibm.as400.access.AS400JDBCDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:kADKvalLFQNfVYm3/0SpkMZDQTDWYHiwGBHc5jSj6py4DPB9" Port="" ProductId="AS400" SID="RHSUPDTA" SQLMode="false" ServerName="ASSIC" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:as400://ASSIC/RHSUPDTA;prompt=false" UiSchema="RHSUPDTA" Username="NOUX" dataPackage="_u1k60C8kEe-h960owbbKSA" dbVersionString="AS400_V7R1_V7R3" id="_xWN0AC5SEe-fE_6Q2TgshQ" label="CNX_DB2_ASSIC_RRHSUPDTA" name="CNX_DB2_ASSIC_RRHSUPDTA" supportNLS="false" xmi:id="_xX1koC5SEe-fE_6Q2TgshQ">
-    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_0w3dsRq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="package filter" value="" xmi:id="_0xjaMBq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="Status" value="" xmi:id="_0xtLMBq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="Version" value="0.1" xmi:id="_0xtLMRq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="Purpose" value="" xmi:id="_0xtLMhq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="Description" value="" xmi:id="_0xtLMxq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="Author" value="" xmi:id="_0xtLNBq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="otherParameter" xmi:id="_0xtLNRq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="DB ProductName" value="DB2 UDB for AS/400" xmi:id="_014gkBq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="DB ProductVersion" value="07.04.0000 V7R4m0" xmi:id="_014gkRq4Ee6NsLMmA0Ek6Q"/>
-    <taggedValue tag="DB IdentifierQuoteString" value="" xmi:id="_014gkhq4Ee6NsLMmA0Ek6Q"/>
-    <parameters key="CONN_PARA_KEY_USERNAME" value="NOUX" xmi:id="_0w3dshq4Ee6NsLMmA0Ek6Q"/>
-    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_oCAT4CTIEe6b4bJ_6WOHUA"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_xX1koC5SEe-fE_6Q2TgshQ" name="CNX_DB2_ASSIC_RRHSUPDTA" id="_xWN0AC5SEe-fE_6Q2TgshQ" label="CNX_DB2_ASSIC_RRHSUPDTA" dataPackage="_u1k60C8kEe-h960owbbKSA" DatabaseType="AS400" DriverClass="com.ibm.as400.access.AS400JDBCDriver" URL="jdbc:as400://ASSIC/RHSUPDTA;prompt=false" dbVersionString="AS400_V7R1_V7R3" Port="" Username="NOUX" Password="enc:system.encryption.key.v1:kADKvalLFQNfVYm3/0SpkMZDQTDWYHiwGBHc5jSj6py4DPB9" ServerName="ASSIC" DatasourceName="" FileFieldName="" SID="RHSUPDTA" SqlSynthax="" StringQuote="" NullChar="" DbmsId="as400_id" ProductId="AS400" AdditionalParams="prompt=false" StandardSQL="true" SQLMode="false" UiSchema="RHSUPDTA" supportNLS="false">
+    <taggedValue xmi:id="_0w3dsRq4Ee6NsLMmA0Ek6Q" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_0xjaMBq4Ee6NsLMmA0Ek6Q" tag="package filter" value=""/>
+    <taggedValue xmi:id="_0xtLMBq4Ee6NsLMmA0Ek6Q" tag="Status" value=""/>
+    <taggedValue xmi:id="_0xtLMRq4Ee6NsLMmA0Ek6Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_0xtLMhq4Ee6NsLMmA0Ek6Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_0xtLMxq4Ee6NsLMmA0Ek6Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_0xtLNBq4Ee6NsLMmA0Ek6Q" tag="Author" value=""/>
+    <taggedValue xmi:id="_0xtLNRq4Ee6NsLMmA0Ek6Q" tag="otherParameter"/>
+    <taggedValue xmi:id="_014gkBq4Ee6NsLMmA0Ek6Q" tag="DB ProductName" value="DB2 UDB for AS/400"/>
+    <taggedValue xmi:id="_014gkRq4Ee6NsLMmA0Ek6Q" tag="DB ProductVersion" value="07.04.0000 V7R4m0"/>
+    <taggedValue xmi:id="_014gkhq4Ee6NsLMmA0Ek6Q" tag="DB IdentifierQuoteString" value=""/>
+    <parameters xmi:id="_0w3dshq4Ee6NsLMmA0Ek6Q" key="CONN_PARA_KEY_USERNAME" value="NOUX"/>
+    <parameters xmi:id="_oCAT4CTIEe6b4bJ_6WOHUA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Schema dataManager="_xX1koC5SEe-fE_6Q2TgshQ" name="RHSUPDTA" xmi:id="_u1k60C8kEe-h960owbbKSA"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_65ad81e7-16ae-4f67-aa56-46f7517f7446"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SlUNeCy7+sPXM1OCf26HVAEAvciLnN6Fa3FFrHhL2otaJ9YLMrgMeYHyczM/3cKqLI50dv3K7AIZ&#13;
-y/OwhymQKg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2b3930b2-1193-493b-b581-39b3224eec33"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>O9+xsqrB5FBGj5oNW5bhwXCNdiCm6pbSmNXIAbztFccdvTN1i0heWdmN1WnNBcpGxKd2qyBmG+bt&#13;
-J64TIaLnEA==</DigestValue></Reference></SignedInfo><SignatureValue>Y5aYkdoQjKoqs7rvi6zC5UVLIseo0UZXYtaPwwV3Y69w1KD0GiHzz/JQtUt9R1UUUsUSvazK7TVg&#13;
-mBgFTZsWTmyR+5hp6TTdhZe0OicYGTBBVnVrj6RA+uMKR+NsJDc1XHt3v0RjsIfcNkJxYSgvUBha&#13;
-m1dL/ovZFeo2d9aQF+k1uUukf8Bdq2rDw/1PZjg0uFWSFhzApFU0iuJkC0Cwku8EUqpZHPcnPb/i&#13;
-ERJ0XdOQfstOe7QQp4qstDsRPJwfxysuJvMzug/fMHfRMV3/1JTbCIyyOIjSferZUvVQR14zUH0t&#13;
-TNF5vVIiZhelg+3z2HxhPK3CVNi7RdUvRNretA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
-DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
-VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
-QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
-YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
-bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
-IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
-DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
-alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
-e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
-CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
-TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
-BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
-gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
-eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
-f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
-G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
-mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
-hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
-WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
-gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
-qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2b3930b2-1193-493b-b581-39b3224eec33" Target="#_65ad81e7-16ae-4f67-aa56-46f7517f7446"><Timestamp>2024-10-14 17:56:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_u1k60C8kEe-h960owbbKSA" name="RHSUPDTA" dataManager="_xX1koC5SEe-fE_6Q2TgshQ"/>
+</xmi:XMI>
