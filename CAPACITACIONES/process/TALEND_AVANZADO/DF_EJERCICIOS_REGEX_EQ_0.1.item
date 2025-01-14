@@ -101,16 +101,6 @@
   </parameters>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputDelimited" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_LNfwQNKEEe-dmMhdshEqsQ" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
@@ -224,6 +214,9 @@
       <column comment="" key="false" length="12" name="NOMBRES_VOCALES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="NOMBRES_NUM_VOCALES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="NOMBRES_END_VOCAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="NOMBRES_START_VOCAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="PRIMER_NOMBRE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CEDULA_10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -234,6 +227,9 @@
         <mapperTableEntries name="NOMBRES_VOCALES" expression="StringHandling.EREPLACE(row1.NOMBRES,&quot;[^aeiouAEIOU]&quot;,&quot;&quot;) " type="id_String" nullable="true"/>
         <mapperTableEntries name="NOMBRES_NUM_VOCALES" expression="StringHandling.EREPLACE(row1.NOMBRES,&quot;[^aeiouAEIOU]&quot;,&quot;&quot;).length() " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="NOMBRES_END_VOCAL" expression="row1.NOMBRES.matches(&quot;.*[aeiouáéíóúAEIOUÁÉÍÓÚ]$&quot;) " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="NOMBRES_START_VOCAL" expression="row1.NOMBRES.matches(&quot;^[aeiouAEIOUÁÉÍÓÚáéíóú].*&quot;) " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="PRIMER_NOMBRE" expression="row1.NOMBRES.replaceAll(&quot;^\\s*([\\S]+).*$&quot;, &quot;$1&quot;) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CEDULA_10" expression="StringHandling.EREPLACE(row1.CEDULA, &quot;^(\\d{9})$&quot;, &quot;0$1&quot;) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="CEDULA" type="id_String" nullable="true"/>
@@ -270,6 +266,12 @@
       <elementValue elementRef="LENGTH" value="10" id="7"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="NOMBRES_END_VOCAL" id="8"/>
       <elementValue elementRef="LENGTH" value="10" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NOMBRES_START_VOCAL" id="10"/>
+      <elementValue elementRef="LENGTH" value="10" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIMER_NOMBRE" id="12"/>
+      <elementValue elementRef="LENGTH" value="10" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CEDULA_10" id="14"/>
+      <elementValue elementRef="LENGTH" value="10" id="15"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -280,6 +282,9 @@
       <column comment="" key="false" length="12" name="NOMBRES_VOCALES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="NOMBRES_NUM_VOCALES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="NOMBRES_END_VOCAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="NOMBRES_START_VOCAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="PRIMER_NOMBRE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CEDULA_10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
@@ -297,6 +302,15 @@
       <elementValue elementRef="TRACE_COLUMN" value="NOMBRES_END_VOCAL" id="6"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="7"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="8"/>
+      <elementValue elementRef="TRACE_COLUMN" value="NOMBRES_START_VOCAL" id="9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="10"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="11"/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRIMER_NOMBRE" id="12"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="13"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="14"/>
+      <elementValue elementRef="TRACE_COLUMN" value="CEDULA_10" id="15"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="16"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="17"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="SalidaREGEX" show="false"/>
