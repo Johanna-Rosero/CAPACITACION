@@ -33,7 +33,7 @@ public class Bi {
      * {example} helloExemple("world") # hello world !.
      */
     public static void println(String message) {
-    	String fecha = TalendDate.formatDate("dd/MM/yyyy HH:mm:ss", TalendDate.getCurrentDate());
+    	String fecha = TalendDate.formatDate("yyyy-MM-dd HH:mm:ss", TalendDate.getCurrentDate());
     	if (message==null || message.isEmpty()) {
     		System.out.println(fecha+":");
     	} 
