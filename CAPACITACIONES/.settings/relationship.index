@@ -70,10 +70,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_LNfwQNKEEe-dmMhdshEqsQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "Bi",
     "version" : "Latest",
     "type" : "routine"
