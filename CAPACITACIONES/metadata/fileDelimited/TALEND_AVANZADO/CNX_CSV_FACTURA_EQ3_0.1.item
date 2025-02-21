@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:DelimitedFileConnection xmi:id="_qIziINKVEe-dmMhdshEqsQ" name="CNX_CSV_FACTURA_EQ3" dataPackage="_qIziIdKVEe-dmMhdshEqsQ" Server="Localhost 127.0.0.1" FilePath="C:/Talend/CAP_DATECSA/DEV/COMERCIAL/SOURCES/FACTURA.csv" Format="WINDOWS" Encoding="windows-1252" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <TalendMetadata:DelimitedFileConnection xmi:id="_qIziINKVEe-dmMhdshEqsQ" name="CNX_CSV_FACTURA_EQ3" id="_qIy7ENKVEe-dmMhdshEqsQ" dataPackage="_qIziIdKVEe-dmMhdshEqsQ" Server="Localhost 127.0.0.1" FilePath="C:/Talend/CAP_DATECSA/DEV/COMERCIAL/SOURCES/FACTURA.csv" Format="WINDOWS" Encoding="windows-1252" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_qIziIdKVEe-dmMhdshEqsQ" name="default" dataManager="_qIziINKVEe-dmMhdshEqsQ">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qIziItKVEe-dmMhdshEqsQ" id="_VE-jANKVEe-dmMhdshEqsQ" label="FACTURA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qIziItKVEe-dmMhdshEqsQ" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_VE-jANKVEe-dmMhdshEqsQ" label="FACTURA">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qIziI9KVEe-dmMhdshEqsQ" label="NUM_FACTURA" length="13" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qIziJNKVEe-dmMhdshEqsQ" label="CEDULA" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qIziJNKVEe-dmMhdshEqsQ" label="CEDULA" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qIziJdKVEe-dmMhdshEqsQ" label="FECHA_EMISION" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qIziJtKVEe-dmMhdshEqsQ" label="AUTORIZACION" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qIziJ9KVEe-dmMhdshEqsQ" label="MONTO" length="6" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
